@@ -144,7 +144,7 @@ const Zoo = () => {
           <Filter value={filter} onChange={handleFilterChange} />
         </div>
 
-      <div class = "smallrow"></div>
+      <div className = "smallrow"></div>
 
       <div className="animals">
         <div className="aquarium">
