@@ -5,7 +5,6 @@ import './styles.css'
 
 // Komponentti AnimalForm, jolla voidaan lisätä uusia eläimiä eläintarhaan. Ei voi lisätä jos tyhjiä kenttiä.
 const AnimalForm = ({ newName, newSpecies, newEnvironment, onNameChange, onSpeciesChange, onEnvironmentChange, onSubmit }) => {
-  const canAddAnimal = newName.trim() !== '' && newSpecies.trim() !== '';
   return (
     <form onSubmit={onSubmit}>
       <h2>Add a New Animal to Zoo</h2>
@@ -24,7 +23,7 @@ const AnimalForm = ({ newName, newSpecies, newEnvironment, onNameChange, onSpeci
         </select>
       </div>
       <div>
-        <button type="submit" disabled={!canAddAnimal}>Add</button>
+        <button type="submit">Add</button>
       </div>
     </form>
   );
@@ -68,8 +67,14 @@ const Zoo = () => {
   };
 
 // Lisäillään uusia eläimiä eläintarhaan
-  const addAnimal = (event) => {
+  const addAnimal = async (event) => {
     event.preventDefault();
+
+// Nimi ja laji ei saa olla tyhjiä
+    if (newName.trim() === '' || newSpecies.trim() === '') {
+      alert('Nimi ja Laji eivät voi olla tyhjiä.');
+      return;
+    }
 
 // Tarkistetaan, onko löytyykö tätä eläintä jo eläintarhasta (nimi ja laji samat)
     const existingAnimal = animals.find(
