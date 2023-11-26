@@ -1,0 +1,104 @@
+{
+    "animals":[
+      {
+        "name": "Nemo",
+        "species": "Clownfish",
+        "environment": "aquarium"
+      },
+      {
+        "name": "Simba",
+        "species": "Lion",
+        "environment": "safari"
+      },
+      {
+        "name": "Fluffy",
+        "species": "Rabbit",
+        "environment": "pettingZoo"
+      },
+      {
+        "name": "Spirit",
+        "species": "Horse",
+        "environment": "pettingZoo"
+      },
+      {
+        "name": "Melman",
+        "species": "Giraffe",
+        "environment": "safari"
+      },
+      {
+        "name": "Willy",
+        "species": "Orca",
+        "environment": "aquarium"
+      },
+      {
+        "name": "Mufasa",
+        "species": "Lion",
+        "environment": "safari"
+      },
+      {
+        "name": "Terk",
+        "species": "Gorilla",
+        "environment": "safari"
+      },
+      {
+        "name": "Destiny",
+        "species": "Whale shark",
+        "environment": "aquarium"
+      },
+      {
+        "name": "Babe",
+        "species": "Pig",
+        "environment": "pettingZoo"
+      },
+      {
+        "name": "Marlin",
+        "species": "Clownfish",
+        "environment": "aquarium"
+      },
+      {
+        "name": "George",
+        "species": "Monkey",
+        "environment": "safari"
+      },
+      {
+        "name": "Mrs. Puff",
+        "species": "Pufferfish",
+        "environment": "aquarium"
+      },
+      {
+        "name": "Cleo",
+        "species": "Goldfish",
+        "environment": "aquarium"
+      },
+      {
+        "name": "Tigger",
+        "species": "Tiger",
+        "environment": "safari"
+      },
+      {
+        "name": "Baloo",
+        "species": "Bear",
+        "environment": "safari"
+      },
+      {
+        "name": "Dumbo",
+        "species": "Elephant",
+        "environment": "safari"
+      },
+      {
+        "name": "Thumper",
+        "species": "Rabbit",
+        "environment": "pettingZoo"
+      },
+      {
+        "name": "Squirt",
+        "species": "Sea Turtle",
+        "environment": "aquarium"
+      },
+      {
+        "name": "Rafiki",
+        "species": "Mandrill",
+        "environment": "safari"
+      }
+    ]
+  }

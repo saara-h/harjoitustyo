@@ -1,0 +1,155 @@
+/* styles.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url(../flamingotausta2.jpg);
+  background-size: cover;
+  background-position:top;
+  color: black;
+  margin-bottom: 60px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .container > div {
+  border-radius: 10px; 
+  overflow: hidden; 
+ }
+
+/* header */
+
+h1 {
+  color: rgb(134, 165, 134);
+  font-size: 60px;
+  position: absolute;
+  top: 30px;
+  left: 90px;
+  font-weight: bolder;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  background-color: rgba(126, 153, 79, 0);
+  padding: 70px;
+  background-size: cover;
+  position: relative;
+}
+
+/* rowit */
+
+.row {
+  width: 100%;
+  height: 30px;
+}
+
+.smallrow {
+  width: 100%;
+  height: 5px;
+}
+
+
+/* eläinten lisäys div */
+
+.add {
+  background-color: rgba(134, 165, 134, 0.850);
+  padding-left: 40px;
+  padding-bottom: 20px;
+  color: rgb(34, 58, 34);
+  }
+
+form {
+  max-width: 400px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 4px;
+  margin-bottom: 8px;
+  background-color: rgba(34, 58, 34, 0.507);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: azure;
+}
+
+select {
+  padding: 5px;
+  background-color: rgba(34, 58, 34, 0.507);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: azure;
+}
+
+button {
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(34, 58, 34, 0.507);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: azure;
+}
+
+
+/* eläimet-header ja searchbar div */
+
+.animals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(134, 165, 134, 0.850);
+  padding-left: 40px;
+  color: rgb(34, 58, 34);
+}
+
+h2 {
+  width: 100%;
+}
+
+/* eläinlistat div */
+
+.animals > div {
+  flex: 1; 
+  border-radius: 10px; 
+  overflow: hidden;
+  margin: 10px 10px 10px 10px;
+}
+
+.animals {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(34, 58, 34);
+}
+
+.aquarium,
+.safari,
+.pettingzoo {
+  flex-basis: calc(33.33% - 10px);
+  background-color: rgba(134, 165, 134, 0.850);
+  text-align: center;
+}
+
+h3 {
+  color: rgb(34, 58, 34);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+
+
+
