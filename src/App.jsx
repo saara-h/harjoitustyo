@@ -123,7 +123,7 @@ const Zoo = () => {
         <h1>the Zoo</h1>
       </div>
 
-      <div class = "row"></div>
+      <div className = "row"></div>
 
       <div className="add">
         <AnimalForm
@@ -137,7 +137,7 @@ const Zoo = () => {
         />
       </div>
 
-      <div class = "row"></div>
+      <div className = "row"></div>
 
       <div className="animals-header">
           <h2>Our Animals</h2>
